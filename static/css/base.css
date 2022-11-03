@@ -1,0 +1,22 @@
+.c1{
+    text-align: center;
+    background-color: darkblue;
+    color: antiquewhite;
+}
+.c2{
+    text-align: center;
+    color: red;
+}
+.c3{
+    text-align: center;
+    background-color: cyan;
+    color: black;
+    position: relative;
+    width: 100%;
+    bottom: 0%;
+}
+.c4{
+    text-align: center;
+    background-color:yellow;
+    color: antiquewhite;
+}

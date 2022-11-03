@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block b1 %}
+<img src="{% static 'images/Realme.png' %}" alt="">
+{% for i in Products %}
+        <h2>{{i}}</h2>
+{% endfor %}
+{% endblock %}
