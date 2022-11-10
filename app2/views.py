@@ -12,3 +12,7 @@ def Realme(request):
     return render(request,'app2/Realme.html',context)
 
 # Create your views here.
+def oneplus(request):
+    Products=['oneplus2','oneplus3','oneplus5','oneplus5T','oneplus6','oneplus8','oneplus9t','oneplus10']
+    context={'Products': Products}
+    return render(request,'app2/oneplus.html',context)
